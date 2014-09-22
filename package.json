@@ -1,0 +1,12 @@
+{
+  "name": "do-my-build",
+  "version": "0.0.1",
+  "description": "Using Grunt to build my little program",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-node-webkit-builder": "~0.1.21",
+    "cross-spawn": "~0.1.7"
+  }
+}

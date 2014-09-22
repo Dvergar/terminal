@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <style type="text/css">
+        body {
+            font-family: "Consolas";
+            font-size:16px;
+            color: #7C8AA5;
+            background-color:#2B3D50;
+            margin:0px;
+            margin-bottom:42px;
+        }
+
+        #content {
+        	padding:10px;
+        }
+
+        #footer {
+            position:fixed;
+            bottom:0px;
+            display: table;
+            /*width:100%;*/
+            /*box-sizing: border-box;*/
+            /*height:20px;*/
+        }
+
+        label, #preinput {
+            display: table-cell;
+        }
+
+        #preinput
+        {
+            width: 100%;
+        }
+
+        label {
+            white-space: nowrap;
+            background-color: #FAAE05;
+            /*padding-right: 5px;*/
+            height:100%;
+            padding:10px;
+        }
+
+/*        #footer div
+        {
+            width: 100%;
+            height:30px;
+        }*/
+
+        #input {
+            /*display:;*/
+            background-color:#1AAF5C;
+            height:100%;
+        	border:none;
+        	width:100%;
+        	outline:none;
+        	/*padding:5px;*/
+        	color:#2B3D50;
+        	margin:0;
+        	font-family: "Consolas";
+        	font-size:16px;
+            /*display: inline-flex;*/
+            /*box-sizing: border-box;*/
+            padding-left:5px;
+        }
+
+        .level {
+            color:#FAAE05;
+            background-color:#E2561C;
+            margin:2px;
+            padding:2px;
+        }
+
+
+        p {
+            color:#2B3D50;
+            padding:5px;
+        }
+
+        .command {
+        	background-color:#1AAF5C;
+        }
+
+        .result {
+        	background-color:#e74c3c;
+        	margin-top:-16px;
+        	border-top:5px solid #be3e31;
+        }
+
+        .result p {
+        	/*margin:0;*/
+            margin:5px;
+            white-space: pre;
+
+            /*margin-top:2px;*/
+            word-wrap:break-word;
+        }
+
+        .result p:hover {
+            border-left: 5px solid #FAAE05;
+        }
+
+        .result .folder {
+            background-color:#be3e31;
+        }
+
+
+        .result img {
+        	margin-bottom:-7px;
+        	margin-right:5px;
+        }
+
+        #preview {
+            position:fixed;
+            bottom:38px;
+            right:0px;
+            border: 10px solid orange;
+            width:25%;
+        }
+    </style>
+  </head>
+
+  <body>
+  	<div id="content">
+	  	<p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p>
+    </div>
+
+    <img id="preview" style="right:-9000px" src=""/>
+
+    <div id="footer">
+        <label id="prefix" for="input"><div class="ok">Test input</div></label><div id="preinput"><input id="input" type=""></div>
+    </div>
+  </body>
+
+  <script src="jquery-2.1.1.min.js"></script>
+  <script src="script.js"></script>
+</html>
